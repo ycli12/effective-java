@@ -1,7 +1,9 @@
+package static_factory;
+
 import java.math.BigInteger;
 import java.util.Random;
 
-public class Example {
+public class UseStaticFactoryInsteadOfConstructor {
     public static void main(String[] args) {
         // 1. 简单示例
         Boolean aBoolean = Boolean.valueOf(true);
@@ -17,7 +19,6 @@ public class Example {
         System.out.println(aBoolean1);
 
         // 4.可以返回子类
-        
 
     }
 }
