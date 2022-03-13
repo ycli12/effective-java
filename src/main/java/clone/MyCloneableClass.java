@@ -15,6 +15,7 @@ public class  MyCloneableClass implements Cloneable{
     // 5、静态工厂
     public static MyCloneableClass newInstance(MyCloneableClass old) {
         // ...
+        return null;
     }
 
     @Override
@@ -26,6 +27,4 @@ public class  MyCloneableClass implements Cloneable{
             throw new AssertionError();
         }
     }
-
-
 }
